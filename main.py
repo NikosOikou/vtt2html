@@ -1,9 +1,6 @@
 import os
 import glob
 
-path = 'https://www.youtube.com/watch?v=3BzfQeVXQ60&list=UUPdUhp3L-Rxp_wigblquLtA'
-command = """youtube-dl 'https://www.youtube.com/watch?v=3BzfQeVXQ60&list=UUPdUhp3L-Rxp_wigblquLtA' --all-subs --skip-download"""
-
 
 TPL_START = """
 <html>
